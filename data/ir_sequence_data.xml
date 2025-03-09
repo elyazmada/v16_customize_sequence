@@ -1,0 +1,22 @@
+<odoo>
+    <record id="sequence_invoice" model="ir.sequence">
+        <field name="name">Invoice Sequence</field>
+        <field name="code">account.move.invoice</field>
+        <field name="padding">5</field>
+        <field name="company_id" eval="False"/>
+    </record>
+
+    <record id="sequence_bill" model="ir.sequence">
+        <field name="name">Bills Sequence</field>
+        <field name="code">account.move.bill</field>
+        <field name="padding">5</field>
+        <field name="company_id" eval="False"/>
+    </record>
+
+    <record id="sequence_journal" model="ir.sequence">
+        <field name="name">Journal Entries Sequence</field>
+        <field name="code">account.move.journal</field>
+        <field name="padding">5</field>
+        <field name="company_id" eval="False"/>
+    </record>
+</odoo>
